@@ -1,1 +1,1 @@
-# Getting started with Data visulization
+# python crash course
