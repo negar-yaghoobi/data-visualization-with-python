@@ -116,3 +116,13 @@ ypoints = np.array([3, 8, 1, 10])
 
 plt.plot(ypoints, '*r')
 plt.show()
+
+
+
+# Marker Size
+# Set the size of the markers to 20:
+
+ypoints = np.array([3, 8, 1, 10])
+
+plt.plot(ypoints, marker = 's', ms = 20)
+plt.show()
