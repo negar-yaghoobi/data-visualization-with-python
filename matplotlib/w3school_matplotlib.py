@@ -153,3 +153,8 @@ plt.show()
 # Hexadecimal color values:
 # Mark each point with a beautiful green color:
 plt.plot(ypoints, marker = 'o', ms = 20, mec = '#4CAF50', mfc = '#4CAF50')
+
+
+# any of the 140 supported color names.
+# Mark each point with the color named "hotpink":
+plt.plot(ypoints, marker = 'o', ms = 20, mec = 'hotpink', mfc = 'hotpink')
