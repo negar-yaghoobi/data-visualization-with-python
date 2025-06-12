@@ -42,3 +42,12 @@ ypoints = np.array([3, 8, 1, 10])
 
 plt.plot(xpoints, ypoints)
 plt.show()
+
+
+# Default X-Points
+# Plotting without x-points:
+
+ypoints = np.array([3, 8, 1, 10, 5, 7])       # points: (0, 3), (1, 8), (2, 1), (3, 10), (4, 5), (5, 7)
+
+plt.plot(ypoints)
+plt.show()
