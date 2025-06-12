@@ -51,3 +51,11 @@ ypoints = np.array([3, 8, 1, 10, 5, 7])       # points: (0, 3), (1, 8), (2, 1), 
 
 plt.plot(ypoints)
 plt.show()
+
+
+# Matplotlib Markers
+# Mark each point with a circle:
+ypoints = np.array([3, 8, 1, 10])
+
+plt.plot(ypoints, marker = 'o')
+plt.show()
