@@ -111,7 +111,7 @@ plt.show()
 
 
 
-# Mark each point with a *:
+# Mark each point with a * and without line:
 ypoints = np.array([3, 8, 1, 10])
 
 plt.plot(ypoints, '*r')
