@@ -126,3 +126,11 @@ ypoints = np.array([3, 8, 1, 10])
 
 plt.plot(ypoints, marker = 's', ms = 20)
 plt.show()
+
+
+# Marker Color
+# Set the EDGE color to red:
+ypoints = np.array([3, 8, 1, 10])
+
+plt.plot(ypoints, marker = 'o', ms = 20, mec = 'r')
+plt.show()
