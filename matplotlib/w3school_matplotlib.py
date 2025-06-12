@@ -92,3 +92,27 @@ plt.show()
 # '4' 	Tri Right 	
 # '|' 	Vline 	
 # '_' 	Hline
+
+
+
+# Format Strings fmt
+# Mark each point with a circle:
+ypoints = np.array([3, 8, 1, 10])
+
+plt.plot(ypoints, 'o:r')
+plt.show()
+
+
+# Line Reference
+# '-' 	Solid line 	
+# ':' 	Dotted line 	
+# '--' 	Dashed line 	
+# '-.' 	Dashed/dotted line
+
+
+
+# Mark each point with a *:
+ypoints = np.array([3, 8, 1, 10])
+
+plt.plot(ypoints, '*r')
+plt.show()
