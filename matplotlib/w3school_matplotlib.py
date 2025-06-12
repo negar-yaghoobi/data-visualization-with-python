@@ -141,3 +141,10 @@ ypoints = np.array([3, 8, 1, 10])
 
 plt.plot(ypoints, marker = 'o', ms = 20, mfc = 'r')
 plt.show()
+
+
+# Set the color of both the edge and the face to red:
+ypoints = np.array([3, 8, 1, 10])
+
+plt.plot(ypoints, marker = 'o', ms = 20, mec = 'r', mfc = 'r')
+plt.show()
