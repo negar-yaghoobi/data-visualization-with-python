@@ -174,3 +174,8 @@ plt.show()
 ypoints = np.array([3, 8, 1, 10])
 plt.plot(ypoints, linestyle = 'dashed')
 plt.show()
+
+
+# Shorter Syntax
+plt.plot(ypoints, ls = ':')
+plt.show()
