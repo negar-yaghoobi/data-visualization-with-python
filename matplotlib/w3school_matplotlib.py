@@ -254,3 +254,6 @@ y2 = np.array([6, 2, 7, 11])
 
 plt.plot(x1, y1, x2, y2)
 plt.show()
+
+
+# Matplotlib Labels and Title
