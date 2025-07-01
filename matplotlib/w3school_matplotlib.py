@@ -181,13 +181,25 @@ import numpy as np
 # plt.show()
 
 
-# Use a none line:
+# # Use a none line:
+# ypoints = np.array([3, 8, 1, 10])
+# plt.plot(ypoints, linestyle = 'None')
+# plt.show()
+
+
+# # Use a none line:
+# ypoints = np.array([3, 8, 1, 10])
+# plt.plot(ypoints, linestyle = '')
+# plt.show()
+
+
+# use a dashdot line
 ypoints = np.array([3, 8, 1, 10])
-plt.plot(ypoints, linestyle = 'None')
+plt.plot(ypoints, linestyle = 'dashdot')
 plt.show()
 
 
-# Use a none line:
+# use a dashdot line shorter syntax
 ypoints = np.array([3, 8, 1, 10])
-plt.plot(ypoints, linestyle = '')
+plt.plot(ypoints, linestyle = 'dashdot')
 plt.show()
