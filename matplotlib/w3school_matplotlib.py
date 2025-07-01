@@ -207,21 +207,29 @@ import numpy as np
 
 # Line Color
 
-# Set the line color to red:
+# # Set the line color to red:
+# ypoints = np.array([3, 8, 1, 10])
+
+# plt.plot(ypoints, color = 'r')
+# plt.show()
+
+
+# # use Hexadecimal color values:
+# # Plot with a green line:
+# ypoints = np.array([3, 8, 1, 10])
+# plt.plot(ypoints, c = '#4CAF50')
+# plt.show()
+
+
+# # Plot with the color named "hotpink":
+# ypoints = np.array([3, 8, 1, 10])
+# plt.plot(ypoints, c = 'hotpink')
+# plt.show()
+
+
+# Line Width
+
+# Plot with a 20.5pt wide line:
 ypoints = np.array([3, 8, 1, 10])
-
-plt.plot(ypoints, color = 'r')
-plt.show()
-
-
-# use Hexadecimal color values:
-# Plot with a green line:
-ypoints = np.array([3, 8, 1, 10])
-plt.plot(ypoints, c = '#4CAF50')
-plt.show()
-
-
-# Plot with the color named "hotpink":
-ypoints = np.array([3, 8, 1, 10])
-plt.plot(ypoints, c = 'hotpink')
+plt.plot(ypoints, linewidth = '20.5')
 plt.show()
