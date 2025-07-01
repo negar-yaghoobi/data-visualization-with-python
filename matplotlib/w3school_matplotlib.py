@@ -193,13 +193,22 @@ import numpy as np
 # plt.show()
 
 
-# use a dashdot line
-ypoints = np.array([3, 8, 1, 10])
-plt.plot(ypoints, linestyle = 'dashdot')
-plt.show()
+# # use a dashdot line
+# ypoints = np.array([3, 8, 1, 10])
+# plt.plot(ypoints, linestyle = 'dashdot')
+# plt.show()
 
 
-# use a dashdot line shorter syntax
+# # use a dashdot line shorter syntax
+# ypoints = np.array([3, 8, 1, 10])
+# plt.plot(ypoints, linestyle = 'dashdot')
+# plt.show()
+
+
+# Line Color
+
+# Set the line color to red:
 ypoints = np.array([3, 8, 1, 10])
-plt.plot(ypoints, linestyle = 'dashdot')
+
+plt.plot(ypoints, color = 'r')
 plt.show()
