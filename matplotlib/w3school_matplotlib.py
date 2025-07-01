@@ -212,3 +212,10 @@ ypoints = np.array([3, 8, 1, 10])
 
 plt.plot(ypoints, color = 'r')
 plt.show()
+
+
+# use Hexadecimal color values:
+# Plot with a green line:
+ypoints = np.array([3, 8, 1, 10])
+plt.plot(ypoints, c = '#4CAF50')
+plt.show()
