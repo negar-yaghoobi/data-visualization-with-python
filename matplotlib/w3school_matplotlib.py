@@ -229,7 +229,18 @@ import numpy as np
 
 # Line Width
 
-# Plot with a 20.5pt wide line:
-ypoints = np.array([3, 8, 1, 10])
-plt.plot(ypoints, linewidth = '20.5')
+# # Plot with a 20.5pt wide line:
+# ypoints = np.array([3, 8, 1, 10])
+# plt.plot(ypoints, linewidth = '20.5')
+# plt.show()
+
+
+# Multiple Lines
+# Draw two lines by specifying a plt.plot() function for each line:
+y1 = np.array([3, 8, 1, 10])
+y2 = np.array([6, 2, 7, 11])
+
+plt.plot(y1)
+plt.plot(y2)
+
 plt.show()
