@@ -164,18 +164,30 @@ import numpy as np
 # linestyle
 # Use a dotted line:
 
-ypoints = np.array([3, 8, 1, 10])
+# ypoints = np.array([3, 8, 1, 10])
 
-plt.plot(ypoints, linestyle = 'dotted')
+# plt.plot(ypoints, linestyle = 'dotted')
+# plt.show()
+
+
+# # Use a dashed line:
+# ypoints = np.array([3, 8, 1, 10])
+# plt.plot(ypoints, linestyle = 'dashed')
+# plt.show()
+
+
+# # Shorter Syntax
+# plt.plot(ypoints, ls = ':')
+# plt.show()
+
+
+# Use a none line:
+ypoints = np.array([3, 8, 1, 10])
+plt.plot(ypoints, linestyle = 'None')
 plt.show()
 
 
-# Use a dashed line:
+# Use a none line:
 ypoints = np.array([3, 8, 1, 10])
-plt.plot(ypoints, linestyle = 'dashed')
-plt.show()
-
-
-# Shorter Syntax
-plt.plot(ypoints, ls = ':')
+plt.plot(ypoints, linestyle = '')
 plt.show()
