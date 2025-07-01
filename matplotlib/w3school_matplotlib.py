@@ -219,3 +219,9 @@ plt.show()
 ypoints = np.array([3, 8, 1, 10])
 plt.plot(ypoints, c = '#4CAF50')
 plt.show()
+
+
+# Plot with the color named "hotpink":
+ypoints = np.array([3, 8, 1, 10])
+plt.plot(ypoints, c = 'hotpink')
+plt.show()
