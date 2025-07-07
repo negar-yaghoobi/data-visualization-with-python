@@ -640,3 +640,12 @@ x = ["APPLES", "BANANAS"]
 y = [400, 350]
 plt.bar(x, y)
 plt.show()
+
+
+# Horizontal Bars
+# Draw 4 horizontal bars:
+x = np.array(["A", "B", "C", "D"])
+y = np.array([3, 8, 1, 10])
+
+plt.barh(x, y)
+plt.show()
