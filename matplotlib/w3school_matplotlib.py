@@ -776,4 +776,14 @@ mylabels = ["Apples", "Bananas", "Cherries", "Dates"]
 
 plt.pie(y, labels = mylabels)
 plt.legend()
-plt.show() 
+plt.show()
+
+# Legend With Header
+# Add a legend with a header:
+
+y = np.array([35, 25, 25, 15])
+mylabels = ["Apples", "Bananas", "Cherries", "Dates"]
+
+plt.pie(y, labels = mylabels)
+plt.legend(title = "Four Fruits:")
+plt.show()
