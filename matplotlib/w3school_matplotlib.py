@@ -625,3 +625,11 @@ import numpy as np
 
 
 # matplotlib bars
+# Creating Bars
+
+# Draw 4 bars:
+x = np.array(["A", "B", "C", "D"])
+y = np.array([3, 8, 1, 10])
+
+plt.bar(x,y)
+plt.show()
