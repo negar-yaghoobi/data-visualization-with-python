@@ -649,3 +649,12 @@ y = np.array([3, 8, 1, 10])
 
 plt.barh(x, y)
 plt.show()
+
+
+# Bar Color
+# Draw 4 red bars:
+x = np.array(["A", "B", "C", "D"])
+y = np.array([3, 8, 1, 10])
+
+plt.bar(x, y, color = "red")
+plt.show()
