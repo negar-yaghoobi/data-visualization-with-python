@@ -717,3 +717,10 @@ import numpy as np
 
 
 # Matplotlib Pie Charts
+# Creating Pie Charts
+# A simple pie chart:
+
+y = np.array([35, 25, 25, 15])
+
+plt.pie(y)
+plt.show() 
