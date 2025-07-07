@@ -704,3 +704,7 @@ plt.show()
 
 
 # matplotlib histograms
+# creating a Normal Data Distribution by NumPy:
+x = np.random.normal(170, 10, 250)
+
+print(x) 
