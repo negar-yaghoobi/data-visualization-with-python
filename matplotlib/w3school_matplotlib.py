@@ -730,4 +730,13 @@ y = np.array([35, 25, 25, 15])
 mylabels = ["Apples", "Bananas", "Cherries", "Dates"]
 
 plt.pie(y, labels = mylabels)
-plt.show() 
+plt.show()
+
+# Start Angle
+
+# Start the first wedge at 90 degrees:
+y = np.array([35, 25, 25, 15])
+mylabels = ["Apples", "Bananas", "Cherries", "Dates"]
+
+plt.pie(y, labels = mylabels, startangle = 90)
+plt.show()
