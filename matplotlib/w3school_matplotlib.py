@@ -624,92 +624,93 @@ import numpy as np
 # plt.show()
 
 
-# matplotlib bars
-# Creating Bars
+# # matplotlib bars
+# # Creating Bars
 
-# Draw 4 bars:
-x = np.array(["A", "B", "C", "D"])
-y = np.array([3, 8, 1, 10])
+# # Draw 4 bars:
+# x = np.array(["A", "B", "C", "D"])
+# y = np.array([3, 8, 1, 10])
 
-plt.bar(x,y)
-plt.show()
-
-
-# example2
-x = ["APPLES", "BANANAS"]
-y = [400, 350]
-plt.bar(x, y)
-plt.show()
+# plt.bar(x,y)
+# plt.show()
 
 
-# Horizontal Bars
-# Draw 4 horizontal bars:
-x = np.array(["A", "B", "C", "D"])
-y = np.array([3, 8, 1, 10])
-
-plt.barh(x, y)
-plt.show()
+# # example2
+# x = ["APPLES", "BANANAS"]
+# y = [400, 350]
+# plt.bar(x, y)
+# plt.show()
 
 
-# Bar Color
-# Draw 4 red bars:
-x = np.array(["A", "B", "C", "D"])
-y = np.array([3, 8, 1, 10])
+# # Horizontal Bars
+# # Draw 4 horizontal bars:
+# x = np.array(["A", "B", "C", "D"])
+# y = np.array([3, 8, 1, 10])
 
-plt.bar(x, y, color = "red")
-plt.show()
-
-
-# example2
-x = np.array(["A", "B", "C", "D"])
-y = np.array([3, 8, 1, 10])
-
-plt.barh(x, y, color = "red")
-plt.show()
-
-# example3
-# Draw 4 "hot pink" bars:
-x = np.array(["A", "B", "C", "D"])
-y = np.array([3, 8, 1, 10])
-
-plt.bar(x, y, color = "hotpink")
-plt.show()
-
-# Color Hex
-# Draw 4 bars with a beautiful green color:
-x = np.array(["A", "B", "C", "D"])
-y = np.array([3, 8, 1, 10])
-
-plt.bar(x, y, color = "#4CAF50")
-plt.show()
+# plt.barh(x, y)
+# plt.show()
 
 
-# Bar Width
-# Draw 4 very thin bars:
-x = np.array(["A", "B", "C", "D"])
-y = np.array([3, 8, 1, 10])
+# # Bar Color
+# # Draw 4 red bars:
+# x = np.array(["A", "B", "C", "D"])
+# y = np.array([3, 8, 1, 10])
 
-plt.bar(x, y, width = 0.1)
-plt.show()
-
-
-# Bar Height
-# Draw 4 very thin bars:
-x = np.array(["A", "B", "C", "D"])
-y = np.array([3, 8, 1, 10])
-
-plt.barh(x, y, height = 0.1)
-plt.show()
+# plt.bar(x, y, color = "red")
+# plt.show()
 
 
+# # example2
+# x = np.array(["A", "B", "C", "D"])
+# y = np.array([3, 8, 1, 10])
 
-# matplotlib histograms
-# creating a Normal Data Distribution by NumPy:
-x = np.random.normal(170, 10, 250)
+# plt.barh(x, y, color = "red")
+# plt.show()
 
-print(x)
+# # example3
+# # Draw 4 "hot pink" bars:
+# x = np.array(["A", "B", "C", "D"])
+# y = np.array([3, 8, 1, 10])
 
-# A simple histogram:
-x = np.random.normal(170, 10, 250)
-plt.hist(x)
-plt.show() 
+# plt.bar(x, y, color = "hotpink")
+# plt.show()
+
+# # Color Hex
+# # Draw 4 bars with a beautiful green color:
+# x = np.array(["A", "B", "C", "D"])
+# y = np.array([3, 8, 1, 10])
+
+# plt.bar(x, y, color = "#4CAF50")
+# plt.show()
+
+
+# # Bar Width
+# # Draw 4 very thin bars:
+# x = np.array(["A", "B", "C", "D"])
+# y = np.array([3, 8, 1, 10])
+
+# plt.bar(x, y, width = 0.1)
+# plt.show()
+
+
+# # Bar Height
+# # Draw 4 very thin bars:
+# x = np.array(["A", "B", "C", "D"])
+# y = np.array([3, 8, 1, 10])
+
+# plt.barh(x, y, height = 0.1)
+# plt.show()
+
+
+
+# # matplotlib histograms
+# # creating a Normal Data Distribution by NumPy:
+# x = np.random.normal(170, 10, 250)
+
+# print(x)
+
+# # A simple histogram:
+# x = np.random.normal(170, 10, 250)
+# plt.hist(x)
+# plt.show()
+
