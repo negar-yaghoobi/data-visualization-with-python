@@ -633,3 +633,10 @@ y = np.array([3, 8, 1, 10])
 
 plt.bar(x,y)
 plt.show()
+
+
+# example2
+x = ["APPLES", "BANANAS"]
+y = [400, 350]
+plt.bar(x, y)
+plt.show()
