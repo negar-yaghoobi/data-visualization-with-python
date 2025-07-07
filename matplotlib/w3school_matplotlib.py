@@ -707,4 +707,9 @@ plt.show()
 # creating a Normal Data Distribution by NumPy:
 x = np.random.normal(170, 10, 250)
 
-print(x) 
+print(x)
+
+# A simple histogram:
+x = np.random.normal(170, 10, 250)
+plt.hist(x)
+plt.show() 
